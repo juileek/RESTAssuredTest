@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [All Test Suite]">
+  <test name="C:/RestApiUdemyTutorial/RESTAssuredTest(failed)">
+    <classes>
+      <class name="TestFramework.basicJIRA">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestFramework.basicJIRA -->
+      <class name="TestFramework.addPlacePost">
+        <methods>
+          <include name="Test2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestFramework.addPlacePost -->
+      <class name="TestFramework.basicPostXml">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestFramework.basicPostXml -->
+      <class name="TestFramework.basicJSONextract">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestFramework.basicJSONextract -->
+      <class name="TestFramework.getPlace">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestFramework.getPlace -->
+      <class name="TestFramework.endtoendtestcaseJira">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestFramework.endtoendtestcaseJira -->
+    </classes>
+  </test> <!-- C:/RestApiUdemyTutorial/RESTAssuredTest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

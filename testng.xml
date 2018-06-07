@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="resources.ExtentReporterNG"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/RestApiUdemyTutorial/RESTAssuredTest">
+        <classes>
+            <class name="TestFramework.addPlacePost">
+            <methods><include name="Test2"/>
+            </methods>
+        </class>
+            <class name="TestFramework.basicJIRA">
+                <methods>
+                    <include name="deleteBug"/>
+                    <include name="updateComment"/>
+                </methods>
+            </class>
+            <class name="TestFramework.basicJSONextractGoogle">
+                <methods><include name="Test"/>
+                </methods>
+            </class>
+            <class name="TestFramework.basicPostXmlGoogle">
+                <methods>
+                    <include name="Test2"/>
+                </methods>
+            </class>
+            <class name="TestFramework.endtoendtestcaseGoogle">
+                <methods>
+                    <include name="addandDeletePlace"/>
+                </methods>
+            </class>
+            <class name="TestFramework.getPlaceGoogle">
+                <methods>
+                    <include name="Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

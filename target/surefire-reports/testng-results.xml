@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="23632" started-at="2018-06-07T21:58:38Z" finished-at="2018-06-07T21:59:02Z">
+    <groups>
+    </groups>
+    <test name="C:/RestApiUdemyTutorial/RESTAssuredTest" duration-ms="23632" started-at="2018-06-07T21:58:38Z" finished-at="2018-06-07T21:59:02Z">
+      <class name="TestFramework.endtoendtestcaseGoogle">
+        <test-method status="PASS" signature="addandDeletePlace()[pri:0, instance:TestFramework.endtoendtestcaseGoogle@436813f3]" name="addandDeletePlace" duration-ms="863" started-at="2018-06-07T21:59:00Z" finished-at="2018-06-07T21:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addandDeletePlace -->
+      </class> <!-- TestFramework.endtoendtestcaseGoogle -->
+      <class name="TestFramework.getPlaceGoogle">
+        <test-method status="PASS" signature="Test()[pri:0, instance:TestFramework.getPlaceGoogle@74fe5c40]" name="Test" duration-ms="601" started-at="2018-06-07T21:59:01Z" finished-at="2018-06-07T21:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- TestFramework.getPlaceGoogle -->
+      <class name="TestFramework.basicJSONextractGoogle">
+        <test-method status="PASS" signature="Test()[pri:0, instance:TestFramework.basicJSONextractGoogle@223d2c72]" name="Test" duration-ms="1515" started-at="2018-06-07T21:58:58Z" finished-at="2018-06-07T21:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- TestFramework.basicJSONextractGoogle -->
+      <class name="TestFramework.basicJIRA">
+        <test-method status="PASS" signature="deleteBug()[pri:0, instance:TestFramework.basicJIRA@36902638]" name="deleteBug" duration-ms="4452" started-at="2018-06-07T21:58:47Z" finished-at="2018-06-07T21:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBug -->
+        <test-method status="PASS" signature="updateComment()[pri:0, instance:TestFramework.basicJIRA@36902638]" name="updateComment" duration-ms="7205" started-at="2018-06-07T21:58:51Z" finished-at="2018-06-07T21:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateComment -->
+      </class> <!-- TestFramework.basicJIRA -->
+      <class name="TestFramework.basicPostXmlGoogle">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:TestFramework.basicPostXmlGoogle@8f4ea7c]" name="Test2" duration-ms="751" started-at="2018-06-07T21:59:00Z" finished-at="2018-06-07T21:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- TestFramework.basicPostXmlGoogle -->
+      <class name="TestFramework.addPlacePost">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestFramework.addPlacePost@1d2adfbe]" name="setup" is-config="true" duration-ms="32" started-at="2018-06-07T21:58:38Z" finished-at="2018-06-07T21:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestFramework.basicJIRA@36902638]" name="setup" is-config="true" duration-ms="0" started-at="2018-06-07T21:58:38Z" finished-at="2018-06-07T21:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestFramework.basicJSONextractGoogle@223d2c72]" name="setup" is-config="true" duration-ms="4" started-at="2018-06-07T21:58:38Z" finished-at="2018-06-07T21:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestFramework.basicPostXmlGoogle@8f4ea7c]" name="setup" is-config="true" duration-ms="0" started-at="2018-06-07T21:58:38Z" finished-at="2018-06-07T21:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestFramework.endtoendtestcaseGoogle@436813f3]" name="setup" is-config="true" duration-ms="4" started-at="2018-06-07T21:58:38Z" finished-at="2018-06-07T21:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestFramework.getPlaceGoogle@74fe5c40]" name="setup" is-config="true" duration-ms="0" started-at="2018-06-07T21:58:38Z" finished-at="2018-06-07T21:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:TestFramework.addPlacePost@1d2adfbe]" name="Test2" duration-ms="8150" started-at="2018-06-07T21:58:38Z" finished-at="2018-06-07T21:58:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- TestFramework.addPlacePost -->
+    </test> <!-- C:/RestApiUdemyTutorial/RESTAssuredTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
