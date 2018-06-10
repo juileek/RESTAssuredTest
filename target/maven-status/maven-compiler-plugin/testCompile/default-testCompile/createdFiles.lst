@@ -1,2 +1,6 @@
+TestFramework\basicJSONextractGoogle.class
+TestFramework\getPlaceGoogle.class
 TestFramework\basicJIRA.class
+TestFramework\basicPostXmlGoogle.class
+TestFramework\endtoendtestcaseGoogle.class
 TestFramework\addPlacePost.class

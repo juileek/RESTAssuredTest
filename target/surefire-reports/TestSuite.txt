@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.105 s - in TestSuite
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.109 s <<< FAILURE! - in TestSuite
+deleteBug(TestFramework.basicJIRA)  Time elapsed: 0.082 s  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at TestFramework.basicJIRA.deleteBug(basicJIRA.java:33)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at TestFramework.basicJIRA.deleteBug(basicJIRA.java:33)
+
+updateComment(TestFramework.basicJIRA)  Time elapsed: 0.078 s  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at TestFramework.basicJIRA.updateComment(basicJIRA.java:44)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at TestFramework.basicJIRA.updateComment(basicJIRA.java:44)
+

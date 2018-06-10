@@ -35,8 +35,8 @@ public class Helper {
                 .when()
                 .post(Resources.jiraResource())
                 .then()
-                .assertThat()
-                .statusCode(200)
+               // .assertThat()
+                //.statusCode(200)
                 .extract()
                 .response();
 
