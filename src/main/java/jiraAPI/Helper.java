@@ -29,7 +29,7 @@ public class Helper {
 
     public static String createJiraSession(String sessionid) {
         //create  session
-        RestAssured.baseURI = "http://localhost:8080/";
+        RestAssured.baseURI = "http://localhost:9090/";
         Response res = RestAssured.given().header("content-Type", "application/json")
                 .body(payLoad.authentication())
                 .when()
