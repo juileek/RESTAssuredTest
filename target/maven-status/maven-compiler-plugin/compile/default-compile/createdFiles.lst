@@ -1,1 +1,8 @@
+googleAPI\Resources.class
+jiraAPI\Resources.class
 TestFramework\App.class
+googleAPI\Helper.class
+googleAPI\payLoad.class
+jiraAPI\payLoad.class
+jiraAPI\Helper.class
+resources\ExtentReporterNG.class
